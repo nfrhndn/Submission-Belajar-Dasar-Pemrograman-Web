@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo"><span>&lt;/&gt;</span> Portfolio</div>
+
+        <ul class="nav-menu">
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#skills">Keahlian</a></li>
+          <li><a href="#contact">Kontak</a></li>
+          <li class="nav-mobile-btn">
+            <a
+              href="https://www.dicoding.com/users/nfrhndn/academies"
+              target="_blank"
+              class="btn-primary"
+            >
+              Profil Dicoding
+            </a>
+          </li>
+        </ul>
+
+        <a
+          class="btn-primary nav-btn"
+          href="https://www.dicoding.com/users/nfrhndn/academies"
+          target="_blank"
+        >
+          Profil Dicoding
+        </a>
+
+        <!-- BURGER BUTTON -->
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <span class="hero-badge">✨ Selamat Datang di Portfolio Saya</span>
+
+      <h1 class="hero-title">Hai, Saya <span>Novendy Farhanudin</span></h1>
+
+      <p class="hero-desc">
+        Seorang Web Developer yang passionate dalam menciptakan pengalaman
+        digital yang menarik dan fungsional. Mari berkolaborasi untuk mewujudkan
+        ide Anda!
+      </p>
+
+      <div class="hero-btn">
+        <a href="#projects" class="btn-primary">Lihat Proyek Saya</a>
+        <a href="#contact" class="btn-outline">Hubungi Saya</a>
+      </div>
+
+      <div class="scroll-indicator">
+        Scroll ke bawah <br />
+        ↓
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <main>
+      <section id="tentang" class="about">
+        <div class="about-left">
+          <h2>Tentang Saya</h2>
+
+          <p>
+            Halo! Saya adalah seorang web developer yang memiliki passion dalam
+            menciptakan website yang tidak hanya menarik secara visual, tetapi
+            juga memberikan pengalaman pengguna yang optimal.
+          </p>
+
+          <p>
+            Perjalanan saya di dunia pemrograman dimulai sejak masa kuliah.
+            Sejak saat itu, saya terus mengembangkan kemampuan di berbagai
+            teknologi web modern.
+          </p>
+
+          <p>
+            Saat ini saya fokus pada pengembangan frontend menggunakan HTML,
+            CSS, dan JavaScript serta membangun antarmuka yang responsif.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>5+</h3>
+              <span>Proyek Selesai</span>
+            </div>
+
+            <div class="stat-card">
+              <h3>2+</h3>
+              <span>Tahun Pengalaman</span>
+            </div>
+
+            <div class="stat-card">
+              <h3>10+</h3>
+              <span>Sertifikat</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="about-right">
+          <div class="profile-box">
+            <img src="assets/profile.jpg" alt="Foto Profil" />
+
+            <h3>Novendy Farhanudin</h3>
+            <p class="role">Web Developer</p>
+
+            <ul class="profile-info">
+              <li>
+                <i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia
+              </li>
+              <li>
+                <i class="fa-solid fa-graduation-cap"></i> Cakrawala University
+              </li>
+              <li><i class="fa-solid fa-briefcase"></i> Available for Work</li>
+            </ul>
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              class="btn-primary profile-btn"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              Lihat Profil
+            </a>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <!-- PROJECT -->
+    <section id="projects" class="projects">
+      <div class="projects-header">
+        <h2>Proyek Saya</h2>
+        <p>
+          Berikut adalah beberapa proyek yang telah saya kerjakan. Setiap proyek
+          merupakan kesempatan untuk belajar dan berkembang.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- CARD 1 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/project1.jpg" alt="Website Portfolio" />
+
+            <div class="project-hover">
+              <a href="#" title="Live Demo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="#" title="Source Code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Website Portfolio</h3>
+            <p>
+              Website portfolio pribadi yang menampilkan project dan keahlian
+              saya sebagai web developer.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/project2.jpg" alt="Landing Page Produk" />
+
+            <div class="project-hover">
+              <a href="#" title="Live Demo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="#" title="Source Code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Landing Page Produk</h3>
+            <p>
+              Landing page modern untuk produk digital dengan desain responsif
+              dan tampilan menarik.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Flexbox</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="project-card">
+          <div class="project-image overlay">
+            <img src="assets/project3.jpg" alt="Blog Pribadi" />
+
+            <div class="project-hover">
+              <a href="#" title="Live Demo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="#" title="Source Code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Blog Pribadi</h3>
+            <p>
+              Website blog dengan desain minimalis untuk berbagi artikel dan
+              pengalaman.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <div class="skills-header">
+        <h2>Keahlian</h2>
+        <p>
+          Teknologi dan tools yang saya gunakan untuk membangun website yang
+          modern dan berkualitas.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill Card -->
+        <article class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div>
+              <h3>HTML5</h3>
+              <p>Membuat struktur web semantik dan accessible</p>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress html"></div>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+
+            <div>
+              <h3>CSS3</h3>
+              <p>Styling modern dengan animasi dan transitions</p>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress css"></div>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon">
+              <i class="fa-solid fa-border-all"></i>
+            </div>
+            <div>
+              <h3>Flexbox & Grid</h3>
+              <p>Layout responsif dan fleksibel</p>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress flex"></div>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div>
+              <h3>Responsive Design</h3>
+              <p>Desain optimal di semua device</p>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress responsive"></div>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div>
+              <h3>JavaScript</h3>
+              <p>Interaktivitas dan logika aplikasi</p>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress js"></div>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top">
+            <div class="skill-icon">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <div>
+              <h3>Git & GitHub</h3>
+              <p>Version control dan kolaborasi</p>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress git"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="contact-header">
+        <h2>Hubungi Saya</h2>
+        <p>
+          Tertarik untuk berkolaborasi atau memiliki pertanyaan? Jangan ragu
+          untuk menghubungi saya!
+        </p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- CONTACT INFO -->
+        <article class="contact-info">
+          <div class="contact-card">
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>nfrhndn711@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+              <h3>Telepon</h3>
+              <p>+62 878 0566 5246</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h3>Lokasi</h3>
+              <p>Jakarta, Indonesia</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- CONTACT FORM -->
+        <article class="contact-form">
+          <form>
+            <label for="name">Nama</label>
+            <input type="text" id="name" placeholder="Nama Anda" required />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="email@example.com"
+              required
+            />
+
+            <label for="message">Pesan</label>
+            <textarea
+              id="message"
+              placeholder="Tulis pesan Anda..."
+              required
+            ></textarea>
+
+            <button type="submit" class="btn-primary">Kirim Pesan</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span>&lt;/&gt;</span> © 2026 - Submission Dicoding Dasar Pemrograman
+          Web
+        </div>
+
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.dicoding.com"
+            target="_blank"
+            aria-label="Dicoding"
+          >
+            <img src="assets/logo-dicoding.png" alt="Dicoding" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const burger = document.querySelector(".burger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      burger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+        burger.classList.toggle("active");
+      });
+    </script>
+    <script>
+      const scrollIndicator = document.querySelector(".scroll-indicator");
+
+      scrollIndicator.addEventListener("click", () => {
+        document.querySelector("#tentang").scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    </script>
+  </body>
+</html>
